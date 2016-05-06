@@ -1,0 +1,54 @@
+{
+  "name": "olet",
+  "version": "0.0.1",
+  "description": "Functional reactive pipelines",
+  "homepage": "http://github.com/zeekay/olet",
+  "bugs": "http://github.com/zeekay/olet/issues",
+  "keywords": [
+    "assets",
+    "compilation",
+    "immutable",
+    "pipeline",
+    "react",
+    "reactive",
+    "tree"
+  ],
+  "main": "lib/",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "prepublish": "cake build-min",
+    "test": "cake build && cake test"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zeekay/olet/blob/master/LICENSE"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zeekay/olet"
+  },
+  "devDependencies": {
+    "cake-publish": "0.1.1",
+    "cake-test": "0.1.0",
+    "cake-version": "0.1.9",
+    "chai": "3.5.0",
+    "chai-as-promised": "^5.1.0",
+    "co-mocha": "1.1.2",
+    "codecov.io": "^0.1.6",
+    "coffee-coverage": "0.7.0",
+    "coffee-script": "1.10.0",
+    "coveralls": "^2.11.4",
+    "es5-shim": "^4.1.13",
+    "istanbul": "^0.4.1",
+    "mocha": "2.3.4",
+    "moment": "^2.10.6",
+    "postmortem": "^0.2.4",
+    "shortcake": "1.1.17",
+    "uglify-js": "^2.6.1"
+  }
+}
